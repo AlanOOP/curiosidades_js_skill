@@ -1,0 +1,31 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "give me a JavaScript fact",
+            "tell me about JavaScript",
+            "tell me a JavaScript fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "javascript facts"
+    }
+  }
+}

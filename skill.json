@@ -1,0 +1,97 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "curiosidades de javascript",
+          "examplePhrases": [
+            "Alexa, open  javascript facts",
+            "hello, javascript facts",
+            "help, javascript facts"
+          ],
+          "keywords": [
+            "javascript"
+          ],
+          "name": "javascript facts",
+          "description": "curiosidades de javascript",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "js",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "curiosidades de javascript",
+          "examplePhrases": [
+            "Alexa, Abre curiosidades de javascript",
+            "ayuda, curiosidades de javascript"
+          ],
+          "keywords": [
+            "javascript"
+          ],
+          "name": "curiosidades js",
+          "description": "curiosidades de javascript en lenguaje en español e ingles.",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "updatesDescription": "curiosidades de javascript",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "MX"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:905418028462:function:1f62c431-d46e-490a-99ed-b699333f9d46:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:905418028462:function:1f62c431-d46e-490a-99ed-b699333f9d46:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:905418028462:function:1f62c431-d46e-490a-99ed-b699333f9d46:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:905418028462:function:1f62c431-d46e-490a-99ed-b699333f9d46:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.uthh.edu.mx",
+          "privacyPolicyUrl": "https://www.uthh.edu.mx"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "https://www.uthh.edu.mx",
+          "privacyPolicyUrl": "https://www.uthh.edu.mx"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
